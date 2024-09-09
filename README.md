@@ -32,11 +32,11 @@ typedef struct clist {
     course *info;
     struct clist *next;
 } clist;
-
-**student**: Contains the student's name, ID, and a list of courses the student is registered for.
-**course**: Contains the course title, number, and a list of students registered for the course.
-**slist**: Linked list node for students.
-**clist**: Linked list node for courses.
+```
+- **student**: Contains the student's name, ID, and a list of courses the student is registered for.
+- **course**: Contains the course title, number, and a list of students registered for the course.
+- **slist**: Linked list node for students.
+- **clist**: Linked list node for courses.
 
 ## Basic Operations
 
