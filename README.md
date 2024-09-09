@@ -68,17 +68,18 @@ typedef struct clist {
 
 ```bash
 gcc -o memory_allocation main.c
-
+```
 ### 2. Run the Program:
 
 To execute the program, use the following command:
 
 ```bash
 ./memory_allocation
-
+```
 ### 3. Check for Memory Leaks:
 
 To check for memory leaks, you can use valgrind with the following command:
 
 ```bash
 valgrind --leak-check=full ./memory_allocation
+```
